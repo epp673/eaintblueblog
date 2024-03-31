@@ -255,3 +255,84 @@ header.shadow .banner-title span{
 .header-title{
     font-size: 1rem;
 }
+.post-header {
+    
+    height: 350px;
+}
+/*responsive*/
+@media (max-width:1060px){
+    .container {
+        padding: 9px;
+        width: 95%;
+    }
+}
+@media (max-width:800px){
+    .navbar-nav {
+        padding: 1px 0;
+    }
+}
+@media (max-width:800px){
+    .navbar-nav a {
+        letter-spacing: 1px;
+     }
+     .post-container {
+        margin: 0 auto;
+        width:95%
+     }
+}
+@media (max-width:768px){
+    .navbar-nav a {
+        letter-spacing: 1px;
+     }
+     section{
+        padding: 2rem 0;
+     }
+     .header-content {
+        margin-top: 3rem !important;
+     }
+     h1 {
+        font-size: 1rem;
+    }
+    .post-content {
+        margin-top: 9rem !important;
+    }
+}
+@media (max-width: 570px){
+    .postheader {
+        height: 390px;
+    }
+}
+@media (max-width:396px){
+    h1 {
+        font-size: 0.9rem;
+    }
+    .banner p {
+        font-size: 0.6rem;
+    }
+    .post-box{
+        padding: 30px;
+    }
+    .header-title{
+        font-size: 0.9rem;
+    }
+    .header-img {
+        height: 250px;
+    }
+    .postheader {
+        height: 300px;
+    }
+    .post-content {
+        margin-top: 5rem !important;
+    }
+    .post-description {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        margin: 10px 0;
+    
+    }
+    .post {
+        
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+      
+    }
+}
